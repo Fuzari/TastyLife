@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00DF25B484A700C551C6 /* AppDelegate.swift */; };
+		233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E125B484A700C551C6 /* SceneDelegate.swift */; };
+		233F00E425B484A700C551C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E325B484A700C551C6 /* ViewController.swift */; };
+		233F00E725B484A700C551C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F00E525B484A700C551C6 /* Main.storyboard */; };
+		233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */; };
+		233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F00EB25B484A800C551C6 /* Assets.xcassets */; };
+		233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F00ED25B484A800C551C6 /* LaunchScreen.storyboard */; };
+		233F00FA25B484A800C551C6 /* TastyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00F925B484A800C551C6 /* TastyLifeTests.swift */; };
+		233F010525B484A800C551C6 /* TastyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F010425B484A800C551C6 /* TastyLifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233F00F625B484A800C551C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233F00D425B484A700C551C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233F00DB25B484A700C551C6;
+			remoteInfo = TastyLife;
+		};
+		233F010125B484A800C551C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233F00D425B484A700C551C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233F00DB25B484A700C551C6;
+			remoteInfo = TastyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		233F00DC25B484A700C551C6 /* TastyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F00DF25B484A700C551C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233F00E125B484A700C551C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		233F00E325B484A700C551C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233F00E625B484A700C551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TastyLife.xcdatamodel; sourceTree = "<group>"; };
+		233F00EB25B484A800C551C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233F00EE25B484A800C551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233F00F025B484A800C551C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F00F525B484A800C551C6 /* TastyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F00F925B484A800C551C6 /* TastyLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeTests.swift; sourceTree = "<group>"; };
+		233F00FB25B484A800C551C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F010025B484A800C551C6 /* TastyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F010425B484A800C551C6 /* TastyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeUITests.swift; sourceTree = "<group>"; };
+		233F010625B484A800C551C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233F00D925B484A700C551C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00F225B484A800C551C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00FD25B484A800C551C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233F00D325B484A700C551C6 = {
+			isa = PBXGroup;
+			children = (
+				233F00DE25B484A700C551C6 /* TastyLife */,
+				233F00F825B484A800C551C6 /* TastyLifeTests */,
+				233F010325B484A800C551C6 /* TastyLifeUITests */,
+				233F00DD25B484A700C551C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233F00DD25B484A700C551C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233F00DC25B484A700C551C6 /* TastyLife.app */,
+				233F00F525B484A800C551C6 /* TastyLifeTests.xctest */,
+				233F010025B484A800C551C6 /* TastyLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233F00DE25B484A700C551C6 /* TastyLife */ = {
+			isa = PBXGroup;
+			children = (
+				233F00DF25B484A700C551C6 /* AppDelegate.swift */,
+				233F00E125B484A700C551C6 /* SceneDelegate.swift */,
+				233F00E325B484A700C551C6 /* ViewController.swift */,
+				233F00E525B484A700C551C6 /* Main.storyboard */,
+				233F00EB25B484A800C551C6 /* Assets.xcassets */,
+				233F00ED25B484A800C551C6 /* LaunchScreen.storyboard */,
+				233F00F025B484A800C551C6 /* Info.plist */,
+				233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */,
+			);
+			path = TastyLife;
+			sourceTree = "<group>";
+		};
+		233F00F825B484A800C551C6 /* TastyLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				233F00F925B484A800C551C6 /* TastyLifeTests.swift */,
+				233F00FB25B484A800C551C6 /* Info.plist */,
+			);
+			path = TastyLifeTests;
+			sourceTree = "<group>";
+		};
+		233F010325B484A800C551C6 /* TastyLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233F010425B484A800C551C6 /* TastyLifeUITests.swift */,
+				233F010625B484A800C551C6 /* Info.plist */,
+			);
+			path = TastyLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233F00DB25B484A700C551C6 /* TastyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F010925B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLife" */;
+			buildPhases = (
+				233F00D825B484A700C551C6 /* Sources */,
+				233F00D925B484A700C551C6 /* Frameworks */,
+				233F00DA25B484A700C551C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TastyLife;
+			productName = TastyLife;
+			productReference = 233F00DC25B484A700C551C6 /* TastyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233F00F425B484A800C551C6 /* TastyLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F010C25B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLifeTests" */;
+			buildPhases = (
+				233F00F125B484A800C551C6 /* Sources */,
+				233F00F225B484A800C551C6 /* Frameworks */,
+				233F00F325B484A800C551C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233F00F725B484A800C551C6 /* PBXTargetDependency */,
+			);
+			name = TastyLifeTests;
+			productName = TastyLifeTests;
+			productReference = 233F00F525B484A800C551C6 /* TastyLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		233F00FF25B484A800C551C6 /* TastyLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F010F25B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLifeUITests" */;
+			buildPhases = (
+				233F00FC25B484A800C551C6 /* Sources */,
+				233F00FD25B484A800C551C6 /* Frameworks */,
+				233F00FE25B484A800C551C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233F010225B484A800C551C6 /* PBXTargetDependency */,
+			);
+			name = TastyLifeUITests;
+			productName = TastyLifeUITests;
+			productReference = 233F010025B484A800C551C6 /* TastyLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233F00D425B484A700C551C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					233F00DB25B484A700C551C6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					233F00F425B484A800C551C6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 233F00DB25B484A700C551C6;
+					};
+					233F00FF25B484A800C551C6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 233F00DB25B484A700C551C6;
+					};
+				};
+			};
+			buildConfigurationList = 233F00D725B484A700C551C6 /* Build configuration list for PBXProject "TastyLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233F00D325B484A700C551C6;
+			productRefGroup = 233F00DD25B484A700C551C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233F00DB25B484A700C551C6 /* TastyLife */,
+				233F00F425B484A800C551C6 /* TastyLifeTests */,
+				233F00FF25B484A800C551C6 /* TastyLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233F00DA25B484A700C551C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */,
+				233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */,
+				233F00E725B484A700C551C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00F325B484A800C551C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00FE25B484A800C551C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233F00D825B484A700C551C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F00E425B484A700C551C6 /* ViewController.swift in Sources */,
+				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
+				233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */,
+				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00F125B484A800C551C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F00FA25B484A800C551C6 /* TastyLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F00FC25B484A800C551C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F010525B484A800C551C6 /* TastyLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233F00F725B484A800C551C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233F00DB25B484A700C551C6 /* TastyLife */;
+			targetProxy = 233F00F625B484A800C551C6 /* PBXContainerItemProxy */;
+		};
+		233F010225B484A800C551C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233F00DB25B484A700C551C6 /* TastyLife */;
+			targetProxy = 233F010125B484A800C551C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233F00E525B484A700C551C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F00E625B484A700C551C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233F00ED25B484A800C551C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F00EE25B484A800C551C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233F010725B484A800C551C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233F010825B484A800C551C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233F010A25B484A800C551C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233F010B25B484A800C551C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233F010D25B484A800C551C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyLife.app/TastyLife";
+			};
+			name = Debug;
+		};
+		233F010E25B484A800C551C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TastyLife.app/TastyLife";
+			};
+			name = Release;
+		};
+		233F011025B484A800C551C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TastyLife;
+			};
+			name = Debug;
+		};
+		233F011125B484A800C551C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MJJXV8D9NX;
+				INFOPLIST_FILE = TastyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fuzari.TastyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TastyLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233F00D725B484A700C551C6 /* Build configuration list for PBXProject "TastyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F010725B484A800C551C6 /* Debug */,
+				233F010825B484A800C551C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F010925B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F010A25B484A800C551C6 /* Debug */,
+				233F010B25B484A800C551C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F010C25B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F010D25B484A800C551C6 /* Debug */,
+				233F010E25B484A800C551C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F010F25B484A800C551C6 /* Build configuration list for PBXNativeTarget "TastyLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F011025B484A800C551C6 /* Debug */,
+				233F011125B484A800C551C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */,
+			);
+			currentVersion = 233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */;
+			path = TastyLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 233F00D425B484A700C551C6 /* Project object */;
+}
