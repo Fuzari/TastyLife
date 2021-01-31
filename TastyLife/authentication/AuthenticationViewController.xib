@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MontserratAlternates-Light.ttf">
+            <string>MontserratAlternates-Light</string>
+        </array>
+        <array key="Playlist Script.otf">
+            <string>Playlist-Script</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthenticationViewController" customModule="TastyLife" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImageView" destination="i9o-lV-2fg" id="Ecp-cI-VLL"/>
+                <outlet property="mainLabel" destination="a24-fm-EOK" id="md1-ma-2Xf"/>
+                <outlet property="newAccountButton" destination="yFH-0b-QJS" id="ACC-fa-EKj"/>
+                <outlet property="signInButton" destination="fPK-Yq-XmL" id="mWz-Fa-VGg"/>
+                <outlet property="subLabel" destination="GRC-Fl-2I6" id="Gro-IE-zoo"/>
+                <outlet property="transparentView" destination="sXu-u6-NeH" id="WkU-IH-dYU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="i9o-lV-2fg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXu-u6-NeH">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <label userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tasty life" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a24-fm-EOK">
+                            <rect key="frame" x="0.0" y="91" width="414" height="105"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="70"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRC-Fl-2I6">
+                            <rect key="frame" x="0.0" y="208" width="414" height="49"/>
+                            <string key="text">Create your own
+cooking masterpieces</string>
+                            <fontDescription key="fontDescription" name="MontserratAlternates-Light" family="Montserrat Alternates" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPK-Yq-XmL" customClass="TastyLifeButton" customModule="TastyLife" customModuleProvider="target">
+                            <rect key="frame" x="48" y="745" width="318" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="uTX-Yy-eZc"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFH-0b-QJS" customClass="TastyLifeButton" customModule="TastyLife" customModuleProvider="target">
+                            <rect key="frame" x="48" y="819" width="318" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="eMf-7z-kmG"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="a24-fm-EOK" firstAttribute="leading" secondItem="sXu-u6-NeH" secondAttribute="leading" id="36m-kV-VeH"/>
+                        <constraint firstItem="a24-fm-EOK" firstAttribute="top" secondItem="sXu-u6-NeH" secondAttribute="top" constant="91" id="8IM-Tw-VKX"/>
+                        <constraint firstItem="GRC-Fl-2I6" firstAttribute="top" secondItem="a24-fm-EOK" secondAttribute="bottom" constant="12" id="IAi-hJ-qh1"/>
+                        <constraint firstAttribute="trailing" secondItem="GRC-Fl-2I6" secondAttribute="trailing" id="OKP-xD-DYn"/>
+                        <constraint firstItem="GRC-Fl-2I6" firstAttribute="leading" secondItem="sXu-u6-NeH" secondAttribute="leading" id="QIH-Yu-oxM"/>
+                        <constraint firstItem="fPK-Yq-XmL" firstAttribute="leading" secondItem="sXu-u6-NeH" secondAttribute="leading" constant="48" id="SXq-84-m84"/>
+                        <constraint firstItem="yFH-0b-QJS" firstAttribute="leading" secondItem="sXu-u6-NeH" secondAttribute="leading" constant="48" id="Z0P-YR-YoB"/>
+                        <constraint firstAttribute="bottom" secondItem="yFH-0b-QJS" secondAttribute="bottom" constant="33" id="aNF-2y-lea"/>
+                        <constraint firstItem="yFH-0b-QJS" firstAttribute="top" secondItem="fPK-Yq-XmL" secondAttribute="bottom" constant="30" id="aVW-q2-Bnq"/>
+                        <constraint firstAttribute="trailing" secondItem="a24-fm-EOK" secondAttribute="trailing" id="iAr-yg-dwr"/>
+                        <constraint firstAttribute="trailing" secondItem="yFH-0b-QJS" secondAttribute="trailing" constant="48" id="j1d-3s-B2e"/>
+                        <constraint firstAttribute="trailing" secondItem="fPK-Yq-XmL" secondAttribute="trailing" constant="48" id="vrk-j8-zH6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="sXu-u6-NeH" secondAttribute="trailing" id="5b6-UH-5sn"/>
+                <constraint firstAttribute="bottom" secondItem="i9o-lV-2fg" secondAttribute="bottom" id="64Z-GG-xxT"/>
+                <constraint firstAttribute="bottom" secondItem="sXu-u6-NeH" secondAttribute="bottom" id="QEc-3F-bFH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="i9o-lV-2fg" secondAttribute="trailing" id="dja-rL-1nR"/>
+                <constraint firstItem="i9o-lV-2fg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mA9-3k-lTb"/>
+                <constraint firstItem="sXu-u6-NeH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tzW-Wq-AKK"/>
+                <constraint firstItem="sXu-u6-NeH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wAe-rw-49G"/>
+                <constraint firstItem="i9o-lV-2fg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="x8u-fF-to2"/>
+            </constraints>
+            <point key="canvasLocation" x="135" y="146"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launchScreen" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
