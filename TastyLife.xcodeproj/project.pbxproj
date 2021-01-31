@@ -22,7 +22,8 @@
 		239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */; };
 		239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D851225C744BC00A2039C /* SceneDelegate.swift */; };
 		23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */; };
-		23FFA08425C748F800DFF137 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* CommonButton.swift */; };
+		23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */; };
+		23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* TastyLifeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,8 @@
 		239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
 		239D851225C744BC00A2039C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TastyLifeColors.swift"; sourceTree = "<group>"; };
-		23FFA08325C748F800DFF137 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+TastyLifeFonts.swift"; sourceTree = "<group>"; };
+		23FFA08325C748F800DFF137 /* TastyLifeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,9 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
+				233F011C25B4898F00C551C6 /* app */,
+				239D84F525C739A800A2039C /* authentication */,
+				23FFA08125C7489300DFF137 /* core */,
 				233F011D25B489A100C551C6 /* coreData */,
 				233F011C25B4898F00C551C6 /* app */,
 				233F011B25B4896500C551C6 /* resources */,
@@ -232,7 +237,7 @@
 		23FFA08225C748A100DFF137 /* customViews */ = {
 			isa = PBXGroup;
 			children = (
-				23FFA08325C748F800DFF137 /* CommonButton.swift */,
+				23FFA08325C748F800DFF137 /* TastyLifeButton.swift */,
 			);
 			path = customViews;
 			sourceTree = "<group>";
@@ -370,6 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */,
+				23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */,
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
 				233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
