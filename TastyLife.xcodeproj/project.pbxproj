@@ -18,6 +18,11 @@
 		239D84BB25C600F400A2039C /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */; };
 		239D84C825C600F400A2039C /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */; };
 		239D84EE25C6040800A2039C /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84ED25C6040800A2039C /* Playlist Script.otf */; };
+		239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */; };
+		239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */; };
+		239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D851225C744BC00A2039C /* SceneDelegate.swift */; };
+		23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */; };
+		23FFA08425C748F800DFF137 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* CommonButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Bold.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
 		239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Regular.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
 		239D84ED25C6040800A2039C /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Playlist Script.otf"; path = "../../../../../../Downloads/Fonts/Playlist-Font/Playlist Script.otf"; sourceTree = "<group>"; };
+		239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		239D851225C744BC00A2039C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TastyLifeColors.swift"; sourceTree = "<group>"; };
+		23FFA08325C748F800DFF137 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +193,48 @@
 				239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */,
 			);
 			path = montserratAlternates;
+			sourceTree = "<group>";
+		};
+		239D84F525C739A800A2039C /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */,
+				239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		23D8244025D8961500D6B96B /* design */ = {
+			isa = PBXGroup;
+			children = (
+				23D8244925D8974400D6B96B /* extensions */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		23D8244925D8974400D6B96B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		23FFA08125C7489300DFF137 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				23FFA08225C748A100DFF137 /* customViews */,
+				23D8244025D8961500D6B96B /* design */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		23FFA08225C748A100DFF137 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				23FFA08325C748F800DFF137 /* CommonButton.swift */,
+			);
+			path = customViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +373,8 @@
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
 				233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
+				239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */,
+				23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
