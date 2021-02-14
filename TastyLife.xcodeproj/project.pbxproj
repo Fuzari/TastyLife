@@ -221,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */,
+				23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -381,6 +382,7 @@
 				233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
 				239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */,
+				23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */,
 				23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
