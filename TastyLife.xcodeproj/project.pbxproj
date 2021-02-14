@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00DF25B484A700C551C6 /* AppDelegate.swift */; };
-		233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E125B484A700C551C6 /* SceneDelegate.swift */; };
 		233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */; };
 		233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F00EB25B484A800C551C6 /* Assets.xcassets */; };
 		233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F00ED25B484A800C551C6 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,12 @@
 		239D84BB25C600F400A2039C /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */; };
 		239D84C825C600F400A2039C /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */; };
 		239D84EE25C6040800A2039C /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84ED25C6040800A2039C /* Playlist Script.otf */; };
+		239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */; };
+		239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */; };
+		239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D851225C744BC00A2039C /* SceneDelegate.swift */; };
+		23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */; };
+		23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */; };
+		23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* TastyLifeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,6 @@
 /* Begin PBXFileReference section */
 		233F00DC25B484A700C551C6 /* TastyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F00DF25B484A700C551C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		233F00E125B484A700C551C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TastyLife.xcdatamodel; sourceTree = "<group>"; };
 		233F00EB25B484A800C551C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233F00EE25B484A800C551C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,12 @@
 		239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Bold.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
 		239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Regular.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
 		239D84ED25C6040800A2039C /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Playlist Script.otf"; path = "../../../../../../Downloads/Fonts/Playlist-Font/Playlist Script.otf"; sourceTree = "<group>"; };
+		239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		239D851225C744BC00A2039C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TastyLifeColors.swift"; sourceTree = "<group>"; };
+		23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+TastyLifeFonts.swift"; sourceTree = "<group>"; };
+		23FFA08325C748F800DFF137 /* TastyLifeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +115,12 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
+				233F011C25B4898F00C551C6 /* app */,
+				239D84F525C739A800A2039C /* authentication */,
+				23FFA08125C7489300DFF137 /* core */,
 				233F011D25B489A100C551C6 /* coreData */,
 				233F011C25B4898F00C551C6 /* app */,
+				233F011D25B489A100C551C6 /* coreData */,
 				233F011B25B4896500C551C6 /* resources */,
 			);
 			path = TastyLife;
@@ -145,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				233F00DF25B484A700C551C6 /* AppDelegate.swift */,
-				233F00E125B484A700C551C6 /* SceneDelegate.swift */,
+				239D851225C744BC00A2039C /* SceneDelegate.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -183,6 +197,49 @@
 				239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */,
 			);
 			path = montserratAlternates;
+			sourceTree = "<group>";
+		};
+		239D84F525C739A800A2039C /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */,
+				239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		23D8244025D8961500D6B96B /* design */ = {
+			isa = PBXGroup;
+			children = (
+				23D8244925D8974400D6B96B /* extensions */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		23D8244925D8974400D6B96B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */,
+				23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		23FFA08125C7489300DFF137 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				23FFA08225C748A100DFF137 /* customViews */,
+				23D8244025D8961500D6B96B /* design */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		23FFA08225C748A100DFF137 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				23FFA08325C748F800DFF137 /* TastyLifeButton.swift */,
+			);
+			path = customViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +350,7 @@
 				239D84C825C600F400A2039C /* MontserratAlternates-Regular.ttf in Resources */,
 				239D84B725C600F400A2039C /* MontserratAlternates-Light.ttf in Resources */,
 				233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */,
+				239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */,
 				239D84BB25C600F400A2039C /* MontserratAlternates-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +376,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */,
+				23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */,
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
-				233F00E225B484A700C551C6 /* SceneDelegate.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
+				239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */,
+				23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */,
+				23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -473,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -491,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJJXV8D9NX;
 				INFOPLIST_FILE = "$(SRCROOT)/TastyLife/resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,6 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJJXV8D9NX;
 				INFOPLIST_FILE = "$(SRCROOT)/TastyLife/resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
