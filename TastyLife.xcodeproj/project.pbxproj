@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232B6C5325F43DC500508F60 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C4F25F43DC500508F60 /* MontserratAlternates-Light.otf */; };
+		232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */; };
+		232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */; };
+		232B6C5E25F43DE000508F60 /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5D25F43DE000508F60 /* Playlist Script.otf */; };
 		233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00DF25B484A700C551C6 /* AppDelegate.swift */; };
 		233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */; };
 		233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F00EB25B484A800C551C6 /* Assets.xcassets */; };
 		233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F00ED25B484A800C551C6 /* LaunchScreen.storyboard */; };
 		233F00FA25B484A800C551C6 /* TastyLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00F925B484A800C551C6 /* TastyLifeTests.swift */; };
 		233F010525B484A800C551C6 /* TastyLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F010425B484A800C551C6 /* TastyLifeUITests.swift */; };
-		239D84B725C600F400A2039C /* MontserratAlternates-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D849325C600F300A2039C /* MontserratAlternates-Light.ttf */; };
-		239D84BB25C600F400A2039C /* MontserratAlternates-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */; };
-		239D84C825C600F400A2039C /* MontserratAlternates-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */; };
-		239D84EE25C6040800A2039C /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 239D84ED25C6040800A2039C /* Playlist Script.otf */; };
 		239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */; };
 		239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */; };
 		239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D851225C744BC00A2039C /* SceneDelegate.swift */; };
@@ -43,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232B6C4F25F43DC500508F60 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		232B6C5D25F43DE000508F60 /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Playlist Script.otf"; sourceTree = "<group>"; };
 		233F00DC25B484A700C551C6 /* TastyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F00DF25B484A700C551C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TastyLife.xcdatamodel; sourceTree = "<group>"; };
@@ -55,10 +59,6 @@
 		233F010025B484A800C551C6 /* TastyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F010425B484A800C551C6 /* TastyLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeUITests.swift; sourceTree = "<group>"; };
 		233F010625B484A800C551C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		239D849325C600F300A2039C /* MontserratAlternates-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Light.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Light.ttf"; sourceTree = "<group>"; };
-		239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Bold.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Bold.ttf"; sourceTree = "<group>"; };
-		239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Regular.ttf"; path = "../../../../../../Downloads/Fonts/montserratalternates/MontserratAlternates-Regular.ttf"; sourceTree = "<group>"; };
-		239D84ED25C6040800A2039C /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Playlist Script.otf"; path = "../../../../../../Downloads/Fonts/Playlist-Font/Playlist Script.otf"; sourceTree = "<group>"; };
 		239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
 		239D851225C744BC00A2039C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,10 +115,8 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
-				233F011C25B4898F00C551C6 /* app */,
 				239D84F525C739A800A2039C /* authentication */,
 				23FFA08125C7489300DFF137 /* core */,
-				233F011D25B489A100C551C6 /* coreData */,
 				233F011C25B4898F00C551C6 /* app */,
 				233F011D25B489A100C551C6 /* coreData */,
 				233F011B25B4896500C551C6 /* resources */,
@@ -184,7 +182,7 @@
 		239D848E25C6009100A2039C /* playlist */ = {
 			isa = PBXGroup;
 			children = (
-				239D84ED25C6040800A2039C /* Playlist Script.otf */,
+				232B6C5D25F43DE000508F60 /* Playlist Script.otf */,
 			);
 			path = playlist;
 			sourceTree = "<group>";
@@ -192,9 +190,9 @@
 		239D848F25C6009D00A2039C /* montserratAlternates */ = {
 			isa = PBXGroup;
 			children = (
-				239D849725C600F300A2039C /* MontserratAlternates-Bold.ttf */,
-				239D849325C600F300A2039C /* MontserratAlternates-Light.ttf */,
-				239D84A425C600F300A2039C /* MontserratAlternates-Regular.ttf */,
+				232B6C4F25F43DC500508F60 /* MontserratAlternates-Light.otf */,
+				232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */,
+				232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */,
 			);
 			path = montserratAlternates;
 			sourceTree = "<group>";
@@ -345,13 +343,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232B6C5325F43DC500508F60 /* MontserratAlternates-Light.otf in Resources */,
+				232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */,
+				232B6C5E25F43DE000508F60 /* Playlist Script.otf in Resources */,
 				233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */,
-				239D84EE25C6040800A2039C /* Playlist Script.otf in Resources */,
-				239D84C825C600F400A2039C /* MontserratAlternates-Regular.ttf in Resources */,
-				239D84B725C600F400A2039C /* MontserratAlternates-Light.ttf in Resources */,
 				233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */,
+				232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */,
 				239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */,
-				239D84BB25C600F400A2039C /* MontserratAlternates-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
