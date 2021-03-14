@@ -11,6 +11,16 @@
 		232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */; };
 		232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */; };
 		232B6C5E25F43DE000508F60 /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5D25F43DE000508F60 /* Playlist Script.otf */; };
+		232B6C7025F44C3900508F60 /* RecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B6C6E25F44C3900508F60 /* RecipesController.swift */; };
+		232B6C7125F44C3900508F60 /* RecipesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C6F25F44C3900508F60 /* RecipesController.xib */; };
+		232B6C7825F44DE900508F60 /* SearchRecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B6C7625F44DE900508F60 /* SearchRecipesController.swift */; };
+		232B6C7925F44DE900508F60 /* SearchRecipesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C7725F44DE900508F60 /* SearchRecipesController.xib */; };
+		232B6C8325F4507800508F60 /* AddRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B6C8125F4507800508F60 /* AddRecipeController.swift */; };
+		232B6C8425F4507800508F60 /* AddRecipeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C8225F4507800508F60 /* AddRecipeController.xib */; };
+		232B6C8B25F4544C00508F60 /* FavoriteRecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B6C8925F4544C00508F60 /* FavoriteRecipesController.swift */; };
+		232B6C8C25F4544C00508F60 /* FavoriteRecipesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C8A25F4544C00508F60 /* FavoriteRecipesController.xib */; };
+		232B6C9C25F454C500508F60 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232B6C9A25F454C500508F60 /* ProfileController.swift */; };
+		232B6C9D25F454C500508F60 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C9B25F454C500508F60 /* ProfileController.xib */; };
 		233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F00DF25B484A700C551C6 /* AppDelegate.swift */; };
 		233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 233F00E825B484A700C551C6 /* TastyLife.xcdatamodeld */; };
 		233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F00EB25B484A800C551C6 /* Assets.xcassets */; };
@@ -47,6 +57,16 @@
 		232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
 		232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
 		232B6C5D25F43DE000508F60 /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Playlist Script.otf"; sourceTree = "<group>"; };
+		232B6C6E25F44C3900508F60 /* RecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesController.swift; sourceTree = "<group>"; };
+		232B6C6F25F44C3900508F60 /* RecipesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipesController.xib; sourceTree = "<group>"; };
+		232B6C7625F44DE900508F60 /* SearchRecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipesController.swift; sourceTree = "<group>"; };
+		232B6C7725F44DE900508F60 /* SearchRecipesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchRecipesController.xib; sourceTree = "<group>"; };
+		232B6C8125F4507800508F60 /* AddRecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeController.swift; sourceTree = "<group>"; };
+		232B6C8225F4507800508F60 /* AddRecipeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRecipeController.xib; sourceTree = "<group>"; };
+		232B6C8925F4544C00508F60 /* FavoriteRecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipesController.swift; sourceTree = "<group>"; };
+		232B6C8A25F4544C00508F60 /* FavoriteRecipesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteRecipesController.xib; sourceTree = "<group>"; };
+		232B6C9A25F454C500508F60 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		232B6C9B25F454C500508F60 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 		233F00DC25B484A700C551C6 /* TastyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233F00DF25B484A700C551C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233F00E925B484A700C551C6 /* TastyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TastyLife.xcdatamodel; sourceTree = "<group>"; };
@@ -92,6 +112,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232B6C6D25F44C1300508F60 /* recipes */ = {
+			isa = PBXGroup;
+			children = (
+				232B6C6E25F44C3900508F60 /* RecipesController.swift */,
+				232B6C6F25F44C3900508F60 /* RecipesController.xib */,
+			);
+			path = recipes;
+			sourceTree = "<group>";
+		};
+		232B6C7525F44DCD00508F60 /* searchRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				232B6C7625F44DE900508F60 /* SearchRecipesController.swift */,
+				232B6C7725F44DE900508F60 /* SearchRecipesController.xib */,
+			);
+			path = searchRecipes;
+			sourceTree = "<group>";
+		};
+		232B6C8025F44EC900508F60 /* addRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				232B6C8125F4507800508F60 /* AddRecipeController.swift */,
+				232B6C8225F4507800508F60 /* AddRecipeController.xib */,
+			);
+			path = addRecipe;
+			sourceTree = "<group>";
+		};
+		232B6C8825F4543100508F60 /* favoriteRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				232B6C8925F4544C00508F60 /* FavoriteRecipesController.swift */,
+				232B6C8A25F4544C00508F60 /* FavoriteRecipesController.xib */,
+			);
+			path = favoriteRecipes;
+			sourceTree = "<group>";
+		};
+		232B6C9925F454AF00508F60 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				232B6C9A25F454C500508F60 /* ProfileController.swift */,
+				232B6C9B25F454C500508F60 /* ProfileController.xib */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
 		233F00D325B484A700C551C6 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +180,11 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
+				232B6C9925F454AF00508F60 /* profile */,
+				232B6C8825F4543100508F60 /* favoriteRecipes */,
+				232B6C8025F44EC900508F60 /* addRecipe */,
+				232B6C7525F44DCD00508F60 /* searchRecipes */,
+				232B6C6D25F44C1300508F60 /* recipes */,
 				239D84F525C739A800A2039C /* authentication */,
 				23FFA08125C7489300DFF137 /* core */,
 				233F011C25B4898F00C551C6 /* app */,
@@ -346,10 +416,15 @@
 				232B6C5325F43DC500508F60 /* MontserratAlternates-Light.otf in Resources */,
 				232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */,
 				232B6C5E25F43DE000508F60 /* Playlist Script.otf in Resources */,
+				232B6C8C25F4544C00508F60 /* FavoriteRecipesController.xib in Resources */,
+				232B6C8425F4507800508F60 /* AddRecipeController.xib in Resources */,
 				233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */,
 				233F00EC25B484A800C551C6 /* Assets.xcassets in Resources */,
+				232B6C9D25F454C500508F60 /* ProfileController.xib in Resources */,
+				232B6C7125F44C3900508F60 /* RecipesController.xib in Resources */,
 				232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */,
 				239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */,
+				232B6C7925F44DE900508F60 /* SearchRecipesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,12 +450,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */,
+				232B6C7025F44C3900508F60 /* RecipesController.swift in Sources */,
 				23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */,
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
 				239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */,
+				232B6C7825F44DE900508F60 /* SearchRecipesController.swift in Sources */,
+				232B6C8B25F4544C00508F60 /* FavoriteRecipesController.swift in Sources */,
+				232B6C8325F4507800508F60 /* AddRecipeController.swift in Sources */,
 				23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */,
 				23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */,
+				232B6C9C25F454C500508F60 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
