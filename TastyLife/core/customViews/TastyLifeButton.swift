@@ -40,13 +40,13 @@ public final class TastyLifeButton: UIButton {
     }
     
     private func setupCommonButton() {
-        backgroundColor = UIColor.Common.commonButtonColor
-        tintColor = UIColor.Common.commonTintColor
+        backgroundColor = UIColor.Common.r200g75b71a1
+        tintColor = UIColor.Common.r255g255b255a1
     }
     
     private func setupTransparentButton() {
-        backgroundColor = UIColor.Common.transparentButtonColor
-        tintColor = UIColor.Common.transparentButtonTintColor
+        backgroundColor = UIColor.Common.r157g157b157a1
+        tintColor = UIColor.Common.r230g230b230a1
     }
     
     private func buttonFont() -> UIFont {

@@ -18,6 +18,6 @@ final class ProfileController: UIViewController {
 // MARK: Applying design
 private extension ProfileController {
     private func applyTheme() {
-        view.backgroundColor = UIColor.Common.mainBackgroundColor
+        view.backgroundColor = UIColor.Common.r32g32b32a1
     }
 }

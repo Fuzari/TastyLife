@@ -18,6 +18,6 @@ final class RecipesController: UIViewController {
 // MARK: Applying design
 private extension RecipesController {
     private func applyTheme() {
-        view.backgroundColor = UIColor.Common.mainLighterBackgroundColor
+        view.backgroundColor = UIColor.Common.r51g51b51a1
     }
 }
