@@ -17,18 +17,31 @@ final class AuthenticationViewController: UIViewController {
     @IBOutlet private var signInButton: TastyLifeButton!
     @IBOutlet private var newAccountButton: TastyLifeButton!
     
+    private lazy var router = AuthenticationRouter(context: self)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
     
     private func setupView() {
-        transparentView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        setupSignInButton()
+        setupNewAccountButton()
+    }
+    
+    private func setupSignInButton() {
         signInButton.configureButton(with: .transparent)
         signInButton.setTitle("Sign In")
-        
+        signInButton.addTarget(self, action: #selector(signInButtonTapped), for: .touchUpInside)
+    }
+    
+    private func setupNewAccountButton() {
         newAccountButton.configureButton(with: .transparent)
         newAccountButton.backgroundColor = .clear
         newAccountButton.setTitle("New account?")
+    }
+    
+    @objc private func signInButtonTapped() {
+        router.showMenu()
     }
 }

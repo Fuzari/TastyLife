@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BAA68C261275D700D9D87F /* AuthenticationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAA68B261275D700D9D87F /* AuthenticationRouter.swift */; };
 		232B6C5325F43DC500508F60 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C4F25F43DC500508F60 /* MontserratAlternates-Light.otf */; };
 		232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */; };
 		232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */; };
@@ -30,6 +31,9 @@
 		239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */; };
 		239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */; };
 		239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239D851225C744BC00A2039C /* SceneDelegate.swift */; };
+		239FAA8825FEAFF4002FD9AF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FAA8625FEAFF4002FD9AF /* MenuController.swift */; };
+		239FAA8925FEAFF4002FD9AF /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FAA8725FEAFF4002FD9AF /* MenuController.xib */; };
+		239FAA9125FEB600002FD9AF /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FAA9025FEB600002FD9AF /* TabBarItem.swift */; };
 		23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */; };
 		23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */; };
 		23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* TastyLifeButton.swift */; };
@@ -53,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BAA68B261275D700D9D87F /* AuthenticationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRouter.swift; sourceTree = "<group>"; };
 		232B6C4F25F43DC500508F60 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
 		232B6C5025F43DC500508F60 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
 		232B6C5225F43DC500508F60 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
@@ -82,6 +87,9 @@
 		239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
 		239D851225C744BC00A2039C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		239FAA8625FEAFF4002FD9AF /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		239FAA8725FEAFF4002FD9AF /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		239FAA9025FEB600002FD9AF /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TastyLifeColors.swift"; sourceTree = "<group>"; };
 		23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+TastyLifeFonts.swift"; sourceTree = "<group>"; };
 		23FFA08325C748F800DFF137 /* TastyLifeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeButton.swift; sourceTree = "<group>"; };
@@ -112,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BAA68A261275AE00D9D87F /* router */ = {
+			isa = PBXGroup;
+			children = (
+				04BAA68B261275D700D9D87F /* AuthenticationRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
 		232B6C6D25F44C1300508F60 /* recipes */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +196,7 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
+				239FAA8525FEAFD4002FD9AF /* menu */,
 				232B6C9925F454AF00508F60 /* profile */,
 				232B6C8825F4543100508F60 /* favoriteRecipes */,
 				232B6C8025F44EC900508F60 /* addRecipe */,
@@ -270,10 +287,21 @@
 		239D84F525C739A800A2039C /* authentication */ = {
 			isa = PBXGroup;
 			children = (
+				04BAA68A261275AE00D9D87F /* router */,
 				239D84F625C73CCE00A2039C /* AuthenticationViewController.swift */,
 				239D84F725C73CCE00A2039C /* AuthenticationViewController.xib */,
 			);
 			path = authentication;
+			sourceTree = "<group>";
+		};
+		239FAA8525FEAFD4002FD9AF /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				239FAA8625FEAFF4002FD9AF /* MenuController.swift */,
+				239FAA8725FEAFF4002FD9AF /* MenuController.xib */,
+				239FAA9025FEB600002FD9AF /* TabBarItem.swift */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 		23D8244025D8961500D6B96B /* design */ = {
@@ -416,6 +444,7 @@
 				232B6C5325F43DC500508F60 /* MontserratAlternates-Light.otf in Resources */,
 				232B6C5625F43DC500508F60 /* MontserratAlternates-SemiBold.otf in Resources */,
 				232B6C5E25F43DE000508F60 /* Playlist Script.otf in Resources */,
+				239FAA8925FEAFF4002FD9AF /* MenuController.xib in Resources */,
 				232B6C8C25F4544C00508F60 /* FavoriteRecipesController.xib in Resources */,
 				232B6C8425F4507800508F60 /* AddRecipeController.xib in Resources */,
 				233F00EF25B484A800C551C6 /* LaunchScreen.storyboard in Resources */,
@@ -451,8 +480,10 @@
 			files = (
 				239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */,
 				232B6C7025F44C3900508F60 /* RecipesController.swift in Sources */,
+				04BAA68C261275D700D9D87F /* AuthenticationRouter.swift in Sources */,
 				23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */,
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
+				239FAA9125FEB600002FD9AF /* TabBarItem.swift in Sources */,
 				233F00EA25B484A700C551C6 /* TastyLife.xcdatamodeld in Sources */,
 				239D851325C744BC00A2039C /* SceneDelegate.swift in Sources */,
 				232B6C7825F44DE900508F60 /* SearchRecipesController.swift in Sources */,
@@ -460,6 +491,7 @@
 				232B6C8325F4507800508F60 /* AddRecipeController.swift in Sources */,
 				23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */,
 				23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */,
+				239FAA8825FEAFF4002FD9AF /* MenuController.swift in Sources */,
 				232B6C9C25F454C500508F60 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
