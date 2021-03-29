@@ -10,6 +10,10 @@ import UIKit
 extension UIColor {
     
     final public class Common {
+        class var r20g20b20a1: UIColor {
+            UIColor(red: 20/255, green: 20/255, blue: 20/255, alpha: 1.0)
+        }
+        
         class var r32g32b32a1: UIColor {
             UIColor(red: 32/255, green: 32/255, blue: 32/255, alpha: 1.0)
         }
