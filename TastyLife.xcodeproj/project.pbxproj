@@ -35,6 +35,8 @@
 		239FAA8825FEAFF4002FD9AF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FAA8625FEAFF4002FD9AF /* MenuController.swift */; };
 		239FAA8925FEAFF4002FD9AF /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 239FAA8725FEAFF4002FD9AF /* MenuController.xib */; };
 		239FAA9125FEB600002FD9AF /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FAA9025FEB600002FD9AF /* TabBarItem.swift */; };
+		23B118BF26926074008AF530 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B118BD26926074008AF530 /* RecipeCell.swift */; };
+		23B118C026926074008AF530 /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B118BE26926074008AF530 /* RecipeCell.xib */; };
 		23D8244225D8963300D6B96B /* UIColor+TastyLifeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */; };
 		23D8244E25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */; };
 		23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FFA08325C748F800DFF137 /* TastyLifeButton.swift */; };
@@ -92,6 +94,8 @@
 		239FAA8625FEAFF4002FD9AF /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		239FAA8725FEAFF4002FD9AF /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
 		239FAA9025FEB600002FD9AF /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		23B118BD26926074008AF530 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		23B118BE26926074008AF530 /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
 		23D8244125D8963300D6B96B /* UIColor+TastyLifeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TastyLifeColors.swift"; sourceTree = "<group>"; };
 		23D8244D25D96EC200D6B96B /* UIFont+TastyLifeFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+TastyLifeFonts.swift"; sourceTree = "<group>"; };
 		23FFA08325C748F800DFF137 /* TastyLifeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastyLifeButton.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 		232B6C8825F4543100508F60 /* favoriteRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				23B118BC26926054008AF530 /* cells */,
 				232B6C8925F4544C00508F60 /* FavoriteRecipesController.swift */,
 				232B6C8A25F4544C00508F60 /* FavoriteRecipesController.xib */,
 			);
@@ -198,17 +203,17 @@
 		233F00DE25B484A700C551C6 /* TastyLife */ = {
 			isa = PBXGroup;
 			children = (
-				239FAA8525FEAFD4002FD9AF /* menu */,
-				232B6C9925F454AF00508F60 /* profile */,
-				232B6C8825F4543100508F60 /* favoriteRecipes */,
 				232B6C8025F44EC900508F60 /* addRecipe */,
-				232B6C7525F44DCD00508F60 /* searchRecipes */,
-				232B6C6D25F44C1300508F60 /* recipes */,
+				233F011C25B4898F00C551C6 /* app */,
 				239D84F525C739A800A2039C /* authentication */,
 				23FFA08125C7489300DFF137 /* core */,
-				233F011C25B4898F00C551C6 /* app */,
 				233F011D25B489A100C551C6 /* coreData */,
+				232B6C8825F4543100508F60 /* favoriteRecipes */,
+				239FAA8525FEAFD4002FD9AF /* menu */,
+				232B6C9925F454AF00508F60 /* profile */,
+				232B6C6D25F44C1300508F60 /* recipes */,
 				233F011B25B4896500C551C6 /* resources */,
+				232B6C7525F44DCD00508F60 /* searchRecipes */,
 			);
 			path = TastyLife;
 			sourceTree = "<group>";
@@ -304,6 +309,15 @@
 				239FAA9025FEB600002FD9AF /* TabBarItem.swift */,
 			);
 			path = menu;
+			sourceTree = "<group>";
+		};
+		23B118BC26926054008AF530 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				23B118BD26926074008AF530 /* RecipeCell.swift */,
+				23B118BE26926074008AF530 /* RecipeCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		23D8244025D8961500D6B96B /* design */ = {
@@ -457,6 +471,7 @@
 				232B6C5425F43DC500508F60 /* MontserratAlternates-Regular.otf in Resources */,
 				239D84F925C73CCE00A2039C /* AuthenticationViewController.xib in Resources */,
 				232B6C7925F44DE900508F60 /* SearchRecipesController.xib in Resources */,
+				23B118C026926074008AF530 /* RecipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +499,7 @@
 				239D84F825C73CCE00A2039C /* AuthenticationViewController.swift in Sources */,
 				232B6C7025F44C3900508F60 /* RecipesController.swift in Sources */,
 				04BAA68C261275D700D9D87F /* AuthenticationRouter.swift in Sources */,
+				23B118BF26926074008AF530 /* RecipeCell.swift in Sources */,
 				23FFA08425C748F800DFF137 /* TastyLifeButton.swift in Sources */,
 				233F00E025B484A700C551C6 /* AppDelegate.swift in Sources */,
 				2396B1462693BE0900F7ABE1 /* EdgeInsetLabel.swift in Sources */,
