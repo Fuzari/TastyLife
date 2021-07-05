@@ -25,6 +25,7 @@ final class AuthenticationViewController: UIViewController {
     }
     
     private func setupView() {
+        transparentView.backgroundColor = UIColor.Common.r0g0b0a1.withAlphaComponent(0.6)
         setupSignInButton()
         setupNewAccountButton()
     }
